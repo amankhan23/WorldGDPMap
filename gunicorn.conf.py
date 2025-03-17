@@ -5,5 +5,4 @@ workers = 3  # Adjust as needed
 worker_class = "sync"
 timeout = 30
 loglevel = "info"
-wsgi_app = "app:app"
- #replace app with your filename, and server with your flask server object.
+wsgi_app = "app:server" #replace app with your filename, and server with your flask server object.
